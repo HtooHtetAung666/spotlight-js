@@ -1,0 +1,54 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import cloud from './on-premises-vs-public-cloud.png'
+
+export const article = {
+    author: 'Htoo Htet Aung',
+    date: '2025-01-21',
+    title: 'Cloud Platforms',
+    description:
+        'Cloud computing is the delivery of computing services over the internet. Most popular services are servers, storages, databases, networking, and software. Instead of owning physical hardware and managing on-premises data centers, users can easily set up the entire infrastructure through web-browser and access computing resources from cloud provider like AWS with pay-as-you-go pricing.'
+}
+
+export const metadata = {
+    title: article.title,
+    description: article.description
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Cloud computing is the delivery of computing services over the internet. Most popular services are servers, storages, databases, networking and software. Instead of owning physical hardware and managing on-premises data centers, users can easily set up the entire infrastructure through web-browser and access computing resources from cloud provider like AWS with pay-as-you-go pricing. Compared to on-premises, public cloud models offer more scalability, flexibility, and cost-efficiency, making it a transformative technology across industries.
+
+<Image src={cloud} alt="" />
+
+## Cloud Computing types
+
+1. Infrastructure as a Service (IaaS): Provides virtualized computing resources such as virtual machines and storage. Most control over the infrastructure.
+
+2. Platform as a Service (PaaS): Offers development platforms and tools for building and deploying applications without managing the underlying infrastructure.
+
+3. Software as a Service (SaaS): Delivers software applications over the internet, accessible via web browsers. Least control over IT resources.
+
+## Some benefits of using Cloud Computing
+
+```c
+1. Cost Efficiency
+   ● Eliminates the need for investment in hardware.
+   ● Pay-as-you-go pricing models reduce overall operational costs.
+
+2. Scalability and Flexibility
+   ● Resources can be scaled up or down instantly based on demand.
+   ● deal for businesses experiencing fluctuating workloads.
+
+3. Global Reach
+   ● Services are accessible from anywhere with an internet connection.
+   ● Enables businesses to deploy applications and services globally.
+
+4. Disaster Recovery and Backup
+   ● Cloud platforms provide reliable backup and recovery solutions.
+   ● Minimizes downtime in the event of hardware failure or cyberattacks.
+
+5. Innovation
+   ● Access to cutting-edge technologies like artificial_intelligence (AI), machine_learning (ML), and big data analytics.
+   ● Facilitates rapid prototyping and innovation.
+```
+

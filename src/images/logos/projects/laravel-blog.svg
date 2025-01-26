@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" fill="#FF2D20">
+  <!-- Hexagon base -->
+  <polygon points="32 4 56 16 56 48 32 60 8 48 8 16 32 4" fill="#FF2D20" />
+  <!-- L Shape for Laravel -->
+  <path d="M20 16H12V44H28V36H20V16Z" fill="#FFF" />
+  <path d="M44 16H36V28H28V44H44V16Z" fill="#FFF" />
+</svg>
