@@ -39,7 +39,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Htoo Htet Aung. I’m living in Thailand, where I shape my future as web and cloud solutions specialist.',
+    'I’m Htoo Htet Aung. I’m living in Thailand, where I shape my future as full-stack data scientist.',
 }
 
 export default function About() {
@@ -59,15 +59,15 @@ export default function About() {
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             I’m Htoo Htet Aung.
-            I’m living in Thailand, where I shape my future as web and cloud solutions specialist.
+            I’m living in Thailand, where I shape my future as full-stack data scientist.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               I’ve loved making things for as long as I can remember.
-              Since my undergraduate days, I was fascinated by the computer science field, especially in web development and high performance computing.    
+              Since my undergraduate days, I was fascinated by the computer science field, especially in web development and artificial intelligence.    
             </p>
             <p>
-              Because I’m interested in informtion technology, I attended the University of Information Technology which is the highest ranking public computer university in Myanmar.
+              Because I’m interested in information technology, I attended the University of Information Technology which is the highest ranking public computer university in Myanmar.
               In this university, I took a Knowledge Engineering major, as artificial intelligence subject keeps becoming a main trend in the latest technological advancements.
               After the four and half years of studying, I obtained a <Link href="https://www.uit.edu.mm/faculty-of-computer-science/knowledge-engineering" className='text-indigo-500 underline'>Bachelor of Computer Science in Knowledge Engineering</Link>.    
             </p>
@@ -79,9 +79,8 @@ export default function About() {
             <p>
               During my academic and working journeys, I got to know computer science related technologies and tools. 
               For web application development, I have experience in web frameworks such as React js, Next js, Vue js and Laravel.
-              In cloud computing subject, I have a extensive knowledge of Amazon Web Services and Microsoft Azure.
-              Moreover, I also have a decent understanding on containerization and orchestration tools like Docker and Kubernetes. 
-            </p>
+              In machine learning, I have a extensive knowledge of TensorFlow and Scikit-learn.              
+              Moreover, I also have a decent understanding on cloud platforms like Amazon Web Services and Microsoft Azure.            </p>
           </div>
         </div>
         <div className="lg:pl-20">

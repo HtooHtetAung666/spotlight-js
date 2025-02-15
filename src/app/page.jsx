@@ -203,7 +203,7 @@ function Resume() {
   let resume = [
     {
       group: 'Myanmar Apex Bank',
-      title: 'NOC Engineer',
+      title: 'System Engineer',
       logo: logoMyanmarApexBank,
       start: 'Apr 2023',
       end: 'Sep 2024',
@@ -278,12 +278,13 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Web Developer, Cloud Enthusiast, and veteran Dota2 player.
+            Developer, Machine Learning Enthusiast, and veteran Dota2 player.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Htoo Htet Aung, a programmer and system engineer based in Thailand.
-            I’m a tech geek passionate about technology and innvoation, emphasis on web applications development, cloud computing and machine learning, blending creativity with technical expertise to solve complex problems.
-            In my spare time, I play Dota2 🎮🕹️👾.
+            I’m a tech geek with hands-on experience in software development and IT infrastructure, passionate about technology and innvoation.
+            Emphasis on web applications development, cloud computing and machine learning, blending creativity with technical expertise to solve complex problems.
+            In my spare time, I play Dota2.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

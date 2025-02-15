@@ -10,7 +10,7 @@ export const metadata = {
       'Portfolio',
   },
   description:
-    'I’m Htoo Htet Aung, a web developer and cloud enthusiast currently living in Thailand. I specialize in building web applications with modern technologies.',
+    'I’m Htoo Htet Aung, developer and machine learning enthusiast currently living in Thailand. I specialize in building web applications with modern technologies.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
