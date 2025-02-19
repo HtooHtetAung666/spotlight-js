@@ -169,10 +169,14 @@ function ThemeToggle() {
     setMounted(true)
   }, [])
 
+  if (!mounted) {
+    return null
+  }
+
   return (
-    <div className='relative inline-flex group'>
+    <div className="relative inline-flex group">
       <div
-        className="absolute transitiona-all duration-1000 opacity-80 -inset-px bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 dark:from-violet-500 dark:via-purple-600 dark:to-indigo-700 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"
+        className="absolute transitiona-all duration-1000 opacity-80 -inset-px bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"
       >
       </div>
       <button
