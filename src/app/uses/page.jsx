@@ -42,7 +42,7 @@ export default function Uses() {
             single time, even under the incredibly heavy loads I put it through
             with our various launch simulations.
           </Tool>
-          <Tool title="15” MSI GP63 Leopard 8RD, 16GB RAM (2019)" href="https://www.msi.com/Laptop/GP63-Leopard-8RD/Specification">
+          <Tool title="15” MSI GP63 Leopard 8RD, 16GB RAM (2018)" href="https://www.msi.com/Laptop/GP63-Leopard-8RD/Specification">
             The first gaming laptop I bought for playing and working. 
             I usually do coding, run docker containers, sometimes train machine learning models on this laptop and it doesn’t disappoint me. 
           </Tool>

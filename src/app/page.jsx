@@ -16,6 +16,7 @@ import logoMaeFahLuang from '@/images/logos/education/mfu.svg'
 import logoMyanmarSurveyResearch from '@/images/logos/work/msr.svg'
 import logoCode2Lab from '@/images/logos/work/code2lab.svg'
 import logoMyanmarApexBank from '@/images/logos/work/mab.svg'
+import logoBrillar from '@/images/logos/work/brillar.svg'
 import image1 from '@/images/photos/coffee-shop.jpeg'
 import image2 from '@/images/photos/mfu-lake.jpeg'
 import image3 from '@/images/photos/me-and-mom-selfie.jpeg'
@@ -201,6 +202,16 @@ function Education() {
 
 function Resume() {
   let resume = [
+    {
+      group: 'Brillar',
+      title: 'Test Automation Engineer',
+      logo: logoBrillar,
+      start: 'Jun 2025',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      }
+    },
     {
       group: 'Myanmar Apex Bank',
       title: 'System Engineer',
